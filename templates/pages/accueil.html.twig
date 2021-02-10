@@ -1,0 +1,197 @@
+{% extends 'bases/base.html.twig'  %}
+
+{% block body %}
+{{ include('components/menu.html.twig') }}
+{% block header %}
+    <div class="hero_slider_container">
+        <div class="hero_slider owl-carousel">
+
+            <!-- Hero Slide -->
+            <div class="hero_slide">
+                <div class="hero_slide_background" style="background-image:url(images/neutre.jpg)"></div>
+                <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+
+                    <div class="hero_slide_content text-center">
+                        <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>{% trans %}SYSTEMES INFORMATIQUES{% endtrans %}</span> </h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Slide -->
+            <div class="hero_slide">
+                <div class="hero_slide_background" style="background-image:url(images/code.jpg)"></div>
+                <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+                    <div class="hero_slide_content text-center">
+                        <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>{% trans %}NOUVELLES TECHNOLOGIES{% endtrans %}</span> </h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Slide -->
+            <div class="hero_slide">
+                <div class="hero_slide_background" style="background-image:url(images/solutionLigne.jpg)"></div>
+                <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+                    <div class="hero_slide_content text-center">
+                        <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">
+                           <span>{% trans %}MULTIPLATEFORME{% endtrans %}</span></h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">prec</span></div>
+        <div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">suiv</span></div>
+    </div>
+    <div class="hero_boxes">
+        <div class="hero_boxes_inner">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 hero_box_col">
+                    <a href="{{path('formations')}}" >
+                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                            <img src="images/earth-globe.svg" class="svg" alt="">
+                            <div class="hero_box_content">
+                                <h2 class="hero_box_title"> {% trans %}Gestion d'Entreprise{% endtrans %} </h2>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+
+                    <div class="col-lg-4 hero_box_col">
+                    <a href="{{path('formations')}}" >
+                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                            <img src="images/books.svg" class="svg" alt="">
+                            <div class="hero_box_content">
+                                <h2 class="hero_box_title"> {% trans %}Systèmes Informatiques {% endtrans %}</h2>
+                                
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+
+                    <div class="col-lg-4 hero_box_col">
+                    <a href="{{path('formations')}}" >
+                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                            <img src="images/professor.svg" class="svg" alt="">
+                            <div class="hero_box_content">
+                                <h2 class="hero_box_title">{% trans %}Formations et Assistances {% endtrans %}</h2>
+                                
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <!-- Popular -->
+    <div class="popular page_section">
+        <div class="container" id="solutions">
+            <div class="row">
+                <div class="col">
+                    <div class="section_title text-center">
+                        <h1>{% trans %}Nos solutions{% endtrans %}</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row course_boxes">
+
+                <!-- Popular Course Item -->
+                <div class="col-lg-4 course_box">
+                    <div class="card">
+                        <div class="card-img-container" style="background-image: url({{ asset('images/securit.jpeg') }})">
+                            
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="card-title"><a href="#">E-SECURITY</a></div>
+                            <div class="card-text">{% trans %}La gestion de votre entreprise de sécurité{% endtrans %}</div>
+                        </div>
+                        <div class="price_box d-flex flex-row align-items-center">
+                            <div class="course_author_image">
+                                <img src="{{ asset('images/app-web.jpg') }}">
+                            </div>
+                            <div class="course_author_name">APPLICATION <span>Web</span></div>
+                            <div class="course_price d-flex flex-column align-items-center justify-content-center"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Course Item -->
+                <div class="col-lg-4 course_box">
+                    <div class="card">
+                        <div class="card-img-container" style="background-image: url({{ asset('images/stock.jpg') }})">
+                            
+                        </div>
+
+                        <div class="card-body text-center">
+                            <div class="card-title"><a href="#">E-STOCK</a></div>
+                            <div class="card-text">{% trans %}La gestion de stock dans tout son ensemble{% endtrans %}</div>
+                        </div>
+                        <div class="price_box d-flex flex-row align-items-center">
+                            <div class="course_author_image">
+                                <img src="{{ asset('images/app-web.jpg') }}" alt="">
+                            </div>
+                            <div class="course_author_name">APPLICATION <span>Web</span></div>
+                            <div class="course_price d-flex flex-column align-items-center justify-content-center"><i class="fas fa-cart-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Course Item -->
+                <div class="col-lg-4 course_box">
+                    <div class="card">
+                        <div class="card-img-container" style="background-image: url({{ asset('images/beauty_sale.jpg') }})">
+                            
+                        </div>
+
+                        <div class="card-body text-center">
+                            <div class="card-title"><a href="#"> E-BEAUTY</a></div>
+                            <div class="card-text"> {% trans %}Pour une bonne gestion de votre salon de beauté{% endtrans %}</div>
+                        </div>
+                        <div class="price_box d-flex flex-row align-items-center">
+                            <div class="course_author_image">
+                                <img src="{{ asset('images/app-web.jpg') }}" alt="">
+                            </div>
+                            <div class="course_author_name">APPLICATION <span>Web</span></div>
+                            <div class="course_price d-flex flex-column align-items-center justify-content-center"><i class="fas fa-cart-arrow-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 read-more-container">
+                    <div class="button button_color_1 text-center trans_200"><a href="">{% trans %}Voir Plus{% endtrans %}</a></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Enregistrer pas encore prete -->
+
+
+    <!-- Services -->
+    {{ include('components/services.html.twig') }}
+
+    <!-- contact -->
+    {{ include('components/register.html.twig') }}
+    
+    <!-- commentaires -->
+    {{ include('components/commentaires.html.twig') }}
+    
+    <!-- A venir -->
+    {{ include('components/prochain.html.twig') }}
+    
+    {% endblock %}
+    {% block footer %}
+    {{ include('components/footer.html.twig') }}
+    {% endblock %}
+{% endblock %}

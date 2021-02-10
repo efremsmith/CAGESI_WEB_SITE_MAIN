@@ -1,0 +1,128 @@
+{% extends 'bases/base.html.twig'  %}
+{% block stylesheets %}
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.15.1/fontawesome-free-5.15.1-web')}}" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css')}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{asset('assets/css/style2.css')}}" rel="stylesheet">
+
+  <link  href="{{asset('styles/bootstrap4/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('plugins/fontawesome-free-5.0.1/css/fontawesome-all.css') }}" rel="stylesheet" type="text/css">
+        <link  href="{{asset('plugins/OwlCarousel2-2.2.1/owl.carousel.css')}}" rel="stylesheet" type="text/css">
+        <link  href="{{asset('plugins/OwlCarousel2-2.2.1/owl.theme.default.css')}}" rel="stylesheet" type="text/css">
+        <link  href="{{asset('plugins/OwlCarousel2-2.2.1/animate.css')}}" rel="stylesheet" type="text/css">
+        <link  href="{{asset('plugins/sweetalert/sweetalert.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{asset('styles/main_styles.css')}}" rel="stylesheet" type="text/css">
+        <link  href="{{asset('styles/responsive.css')}}" rel="stylesheet" type="text/css">
+        <link  href="{{asset('styles/custom.css')}}" rel="stylesheet" type="text/css">
+
+  <!-- =======================================================
+  * Template Name: Medilab - v2.1.0
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+{% endblock %}
+{% block body %}
+  {{ include('components/menu.html.twig') }}
+  <div class="home">
+    {% block header %}
+    {{ include('components/formationHeader.html.twig') }}
+    {% endblock %}
+  </div>
+  
+  {% block content %}
+    <!-- ======= Qui sommes-nous Section ======= -->
+    
+    {{ include('components/formationQui.html.twig') }}
+    <!-- ======= stage Section ======= -->
+    {{ include('components/formationStage.html.twig') }}
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="icofont-doctor-alt"></i>
+              <span data-toggle="counter-up">85</span>
+              <p>Apprenants satisfaits</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="icofont-user"></i>
+              <span data-toggle="counter-up">10</span>
+              <p>Formateurs</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-laboratory"></i>
+              <span data-toggle="counter-up">6</span>
+              <p>Services</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-flag"></i>
+              <span data-toggle="counter-up">6</span>
+              <p>Applications</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+    <!-- ======= Assistance Section ======= -->
+    {{ include('components/assistance.html.twig') }}
+    <!-- ======= domaine de formation Section ======= -->
+    {{ include('components/formationDomaine.html.twig') }}
+    
+    <!-- ======= commentaires Section ======= -->
+    {{ include('components/formationCommentaires.html.twig') }}
+    <!-- ======= formateurs Section ======= -->
+    {{ include('components/formationFormateur.html.twig') }}
+
+
+  
+    <!-- ======= Contact Section ======= -->
+    {{ include('components/formationContact.html.twig') }}
+    <!-- footer -->
+    {{ include('components/formationFooter.html.twig') }}
+  
+
+  
+  
+  <!-- Vendor JS Files -->
+  <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/waypoints/jquery.waypoints.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/counterup/counterup.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{asset('assets/js/main.js')}}"></script>
+  {% endblock %}
+{% endblock %}

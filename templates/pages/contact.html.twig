@@ -1,0 +1,107 @@
+{% extends 'bases/base.html.twig'  %}
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/contact_styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/contact_responsive.css') }}">
+{% endblock %}
+
+{% block body %}
+    {{ include('components/menu.html.twig') }}
+    <div class="home">
+        {% block header %}
+        <div class="home_background_container prlx_parent">
+            <div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+        </div>
+        <div class="home_content">
+            <h1><span>Contact</span></h1>
+        </div>
+        {% endblock %}
+    </div>
+
+    {% block content %}
+    <!-- Contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Contact Form -->
+                    <div class="contact_form">
+                        <div class="contact_title">{% trans %}Envoyer un email{% endtrans %}</div>
+                        <div class="contact_form_container">
+                            <form action="POST">
+                                <input id="contact_form_name" class="input_field contact_form_name" type="text"
+                                       placeholder="Name" required="required" data-error="Nom recquis.">
+                                <input id="contact_form_email" class="input_field contact_form_email" type="email"
+                                       placeholder="E-mail" required="required"
+                                       data-error="Veuillez saisir un email valide.">
+                                <br>
+                                <br>
+                                <textarea id="contact_form_message" class="text_field contact_form_message"
+                                          name="message" placeholder="Message" required="required"
+                                          data-error="Please, write us a message."></textarea>
+                                <button id="contact_send_btn" type="button" class="contact_send_btn trans_200"
+                                        value="Submit">{% trans %}Envoyer message{% endtrans %}
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="about">
+                        <div class="about_title">{% trans %}Contactez nous{% endtrans %}</div>
+                        <p class="about_text">{% trans %} Notre équipe est disposée à vous repondre par rapport à toutes vos inquiétudes. N'hesitez pas à nous contacter.{% endtrans %}</p>
+
+                        <div class="contact_info">
+                            <ul>
+                                <li class="contact_info_item">
+                                    <div class="contact_info_icon">
+                                        <img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+                                    </div>
+                                    Rue du Grand Séminaire, à 50m de la CEET Hedzranawoe
+                                </li>
+                                <li class="contact_info_item">
+                                    <div class="contact_info_icon">
+                                        <img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+                                    </div>
+                                    +228 96 06 02 02
+                                </li>
+                                <li class="contact_info_item">
+                                    <div class="contact_info_icon">
+                                        <img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+                                    </div>
+                                    info@cagesisoft.com
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Google Map -->
+
+            <div class="row">
+                <div class="col">
+                    <div id="google_map">
+                        <div class="map_container">
+                            <div id="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6382528633358!2d1.2351300142305188!3d6.179152395526532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e3f791d3121d%3A0x5102e0953c010685!2sCAGESI%20Sarl!5e0!3m2!1sfr!2stg!4v1587546295155!5m2!1sfr!2stg" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    {% endblock %}
+
+    {% block footer %}
+    {{ include('components/footer.html.twig') }}
+    {% endblock %}
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+    <script src="{{  asset('js/contact_custom.js') }}"></script>
+{% endblock %}

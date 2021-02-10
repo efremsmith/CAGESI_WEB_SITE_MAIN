@@ -1,0 +1,159 @@
+<style>
+.image{
+    max-width: 100%;
+    height: auto;
+}
+</style>
+            <div class="breadcome-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="breadcome-list single-page-breadcome">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="breadcome-heading">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <ul class="breadcome-menu">
+                                            <li><a href="#">Home</a> <span class="bread-slash">/</span>
+                                            </li>
+                                            <li><span class="bread-blod">Listes</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single pro tab review Start-->
+        <div class="single-pro-review-area mt-t-30 mg-b-15">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="product-payment-inner-st">
+                            <ul id="myTabedu1" class="tab-review-design">
+                                <li class="active"><a href="#produits">Produits</a></li>
+                                <li><a href="#categorieproduit"> Categorie de Produits</a></li>
+                                <li><a href="#solutions">Solutions</a></li>
+                                <li><a href="#typesolutions">Types de Solutions</a></li>
+                                <li><a href="#typereglements">Types de reglements</a></li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content custom-product-edit">
+                                <div class="product-tab-list tab-pane fade active in" id="produits">
+                                    <div class="row">
+                                        {% for produits in produit %}
+                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="courses-inner res-mg-b-30">
+                                                    <div class="courses-title">
+                                                        <a href="#"><img class="image" src="{{produits.image}}" alt=""></a>
+                                                        <h2>{{produits.nomProduit}}</h2>
+                                                        <span>{{produits.categorieproduit.LibelleCat}}</span> <br>
+                                                        <strong>{{produits.Prix}}</strong>
+                                                    </div>
+                                                    
+                                                    <div class="course-des">
+                                                        <p>{{produits.Caracteristiques}}</p>
+                                                    </div>
+                                                    <div class="product-buttons">
+                                                        <a href="{{path('edit',{'id': produits.id})}}" type="button" class="btn btn-primary cart-btn">Modifier</a>
+                                                        <a href="{{path('delete_prod',{'id': produits.id})}}" type="button" class="btn btn-primary cart-btn">Supprimer</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                      
+                                    </div>
+                                </div>
+                               <div class="product-tab-list tab-pane fade" id="categorieproduit">
+                                    <div class="row">
+                                        {% for categorieproduit in categorieproduits %}
+                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="courses-inner res-mg-b-30">
+                                                    <div class="courses-title">
+                                                        <a href="#"><img class="image" src="" alt=""></a>
+                                                        <h2>{{categorieproduit.LibelleCat}}</h2>
+                                                    </div>
+                                                    
+                                                    <div class="product-buttons">
+                                                        <a href="{{path('edit',{'id': categorieproduit.id})}}" type="button" class="btn btn-primary cart-btn">Modifier</a>
+                                                        <a href="{{path('delete_cat',{'id': categorieproduit.id})}}" type="button" class="btn btn-primary cart-btn">Supprimer</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <div class="product-tab-list tab-pane fade " id="typereglements">
+                                    <div class="row">
+                                        {% for typereglement in typereglements %}
+                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="courses-inner res-mg-b-30">
+                                                    <div class="courses-title">
+                                                        <a href="#"><img class="image" src="" alt=""></a>
+                                                        <h2>{{typereglement.typeReglement}}</h2>
+                                                    </div>
+                                                    
+                                                    <div class="product-buttons">
+                                                        <a href="{{path('edit',{'id': typereglement.id})}}" type="button" class="btn btn-primary cart-btn">Modifier</a>
+                                                        <a href="{{path('delete_reg',{'id': typereglement.id})}}" type="button" class="btn btn-primary cart-btn">Supprimer</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <div class="product-tab-list tab-pane fade" id="solutions">
+                                    <div class="row">
+                                        {% for solution in solutions %}
+                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="courses-inner res-mg-b-30">
+                                                    <div class="courses-title">
+                                                        <a href="#"><img class="image" src="{{solution.image}}" alt=""></a>
+                                                        <h2>{{solution.libelle}}</h2>
+                                                        <span>{{solution.TypeSolutions.libelle}}</span>
+                                                    </div>
+                                                    
+                                                    <div class="course-des">
+                                                        <p>{{solution.description}}</p>
+                                                        
+                                                    </div>
+                                                    <div class="product-buttons">
+                                                        <a href="{{path('edit',{'id': solution.id})}}" type="button" class="btn btn-primary cart-btn">Modifier</a>
+                                                        <a href="{{path('delete_sol',{'id': solution.id})}}" type="button" class="btn btn-primary cart-btn">Supprimer</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <div class="product-tab-list tab-pane fade" id="typesolutions">
+                                    <div class="row">
+                                        {% for typesolution in typesolutions %}
+                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="courses-inner res-mg-b-30">
+                                                    <div class="courses-title">
+                                                        <a href="#"><img class="image" src="" alt=""></a>
+                                                        <h2>{{typesolution.libelle}}</h2>
+                                                    </div>
+                                                    
+                                                    <div class="product-buttons">
+                                                        <a href="{{path('edit',{'id': typesolution.id})}}" type="button" class="btn btn-primary cart-btn">Modifier</a>
+                                                        <a href="{{path('delete_Tsol',{'id': typesolution.id})}}" type="button" class="btn btn-primary cart-btn">Supprimer</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

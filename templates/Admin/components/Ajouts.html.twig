@@ -1,0 +1,158 @@
+            <div class="breadcome-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="breadcome-list single-page-breadcome">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="breadcome-heading">
+                                            <form role="search" class="sr-input-func">
+                                                <input type="text" placeholder="Search..." class="search-int form-control">
+                                                <a href="#"><i class="fa fa-search"></i></a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <ul class="breadcome-menu">
+                                            <li><a href="#">Home</a> <span class="bread-slash">/</span>
+                                            </li>
+                                            <li><span class="bread-blod">Ajouts</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single pro tab review Start-->
+        <div class="single-pro-review-area mt-t-30 mg-b-15">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="product-payment-inner-st">
+                            <ul id="myTabedu1" class="tab-review-design">
+                                <li class="active"><a href="#produits">Produits</a></li>
+                                <li><a href="#categorieproduit"> Categorie de Produits</a></li>
+                                <li><a href="#solutions">Solutions</a></li>
+                                <li><a href="#typesolutions">Types de Solutions</a></li>
+                                <li><a href="#typereglements">Types de reglements</a></li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content custom-product-edit">
+                               <div class="product-tab-list tab-pane fade" id="categorieproduit">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="review-content-section">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        {{ form_start (formCategorie) }}
+                                                        {{ form_widget (formCategorie.LibelleCat, {'attr': {'placeholder': 'nom categorie'}}) }}
+                                                        <p> </p>
+                                                        <p> </p>
+                                                        <button type="submit" class="btn btn-primary waves-effect waves-light" > 
+                                                            Enregistrer
+                                                        </button>
+                                                        {{ form_end (formCategorie) }}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-tab-list tab-pane fade active in" id="produits">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="review-content-section">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        {{ form_start (formProduit) }}
+                                                        {{ form_widget (formProduit.nomProduit, {'attr': {'placeholder': 'nom du produit'}}) }}
+                                                        <br>
+                                                        {{ form_widget (formProduit.Prix, {'attr': {'placeholder': 'le prix du produit'}}) }} <br>
+                                                        {{ form_widget (formProduit.Caracteristiques, {'attr': {'placeholder': 'les caracteristiques du produit'}}) }} <br>
+                                                        {{ form_widget (formProduit.image, {'attr': {'placeholder': 'lien de image '}}) }} <br>
+                                                        {{ form_widget (formProduit.categorieproduit, {'attr': {'placeholder': 'categorie du produit '}}) }} <br>
+                                                        <p> </p>
+                                                        <p> </p>
+                                                        <button type="submit" class="btn btn-primary waves-effect waves-light" > 
+                                                            Enregistrer
+                                                        </button>
+                                                        {{ form_end (formProduit) }}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-tab-list tab-pane fade" id="solutions">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="review-content-section">
+												<div class="row">
+													<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+														{{ form_start (formSolution) }}
+                                                        {{ form_widget (formSolution.libelle, {'attr': {'placeholder': 'nom du projet'}}) }}
+                                                        <br>
+                                                        {{ form_widget (formSolution.description, {'attr': {'placeholder': 'description du projet'}}) }} <br>
+                                                        {{ form_widget (formSolution.image, {'attr': {'placeholder': 'lien de image '}}) }} <br>
+                                                        {{ form_widget (formSolution.TypeSolutions, {'attr': {'placeholder': 'type de solution '}}) }} <br>
+                                                        <p> </p>
+                                                        <p> </p>
+                                                        <button type="submit" class="btn btn-primary waves-effect waves-light" > 
+                                                            Enregistrer
+                                                        </button>
+                                                        {{ form_end (formSolution) }}
+													</div>
+												</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-tab-list tab-pane fade" id="typesolutions">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="review-content-section">
+												<div class="row">
+													<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+														{{ form_start (formTypeSolution) }}
+                                                        {{ form_widget (formTypeSolution.libelle, {'attr': {'placeholder': 'Nom du type de solution'}}) }}
+                                                        <p> </p>
+                                                        <p> </p>
+                                                        <button type="submit" class="btn btn-primary waves-effect waves-light" > 
+                                                            Enregistrer
+                                                        </button>
+                                                        {{ form_end (formTypeSolution) }}
+													</div>
+												</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-tab-list tab-pane fade" id="typereglements">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="review-content-section">
+												<div class="row">
+													<div class="col-lg-12">
+														{{ form_start (formTypeReglement) }}
+                                                        {{ form_widget (formTypeReglement.typeReglement, {'attr': {'placeholder': 'Nom du type de reglement'}}) }}
+                                                        <p> </p>
+                                                        <p> </p>
+                                                        <button type="submit" class="btn btn-primary waves-effect waves-light" > 
+                                                            Enregistrer
+                                                        </button>
+                                                        {{ form_end (formTypeReglement) }}
+													</div>
+												</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

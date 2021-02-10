@@ -1,0 +1,159 @@
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Newsletter -->
+
+			<div class="newsletter" id="newsletter">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1> {% trans %}Souscrivez à la newsletter{% endtrans %}</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col text-center">
+						<div class="newsletter_form_container mx-auto">
+							<form action="post" action="" id="form-newsletter">
+							         
+								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+									<input id="email" class="newsletter_email" type="email" placeholder="Addresse email" required="required" data-error="Valid email is required.">
+									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">{% trans %}Souscrivez{% endtrans %}</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-3 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/logo.png" alt="">
+								<span>CAGESISARL</span>
+							</div>
+						</div>
+
+						<p class="footer_about_text">{% trans %}est une vitrine dédiée à tous nos projets et services informatiques, présents et à venir.{% endtrans %}</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="">{% trans %}Accueil{% endtrans %}</a></li>
+								<!--li class="footer_list_item"><a href="#">About Us</a></li-->
+								<li class="footer_list_item"><a href="">{% trans %}Nos Solutions{% endtrans %}</a></li>
+								<!--li class="footer_list_item"><a href="news.html">News</a></li-->
+								<li class="footer_list_item"><a href="">{% trans %}Services{% endtrans %}</a></li>
+								<li class="footer_list_item"><a href="">{% trans %}Contacts{% endtrans %}</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Footer Column - Usefull Links -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">{% trans %}Liens utiles{% endtrans %}</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="#solutions">{% trans %}Solutions{% endtrans %}</a></li>
+								<li class="footer_list_item"><a href="#services">{% trans %}Services{% endtrans %}</a></li>
+								<li class="footer_list_item"><a href="#temoignages">{% trans %}Témoignages{% endtrans %}</a></li>
+								<li class="footer_list_item"><a href="#avenir">{% trans %}A venir{% endtrans %}</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Contacts</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									{% trans %}Rue du Grand Séminaire, à 50m de la CEET Hedzranawoe{% endtrans %}
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									+228 96 06 01 01
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>info@cagesisoft.com
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+				<div class="footer_copyright">
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy; <script> document.write(new Date().getFullYear()); </script> {% trans %}CAGESI SARL Tout Droit réservé{% endtrans %}  <!--i class="fa fa-heart" aria-hidden="true"></i-->  <!--a href="https://colorlib.com" target="_blank">Colorlib</a-->
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<div class="footer_social ml-sm-auto">
+					<ul class="menu_social">
+						<li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	
+    <script>
+
+        function showMessage(title, text, icon) {
+            swal({
+               
+				text: text,
+				button: {
+                    text: "OK",
+                    value: true,
+                    visible: true,
+                    className: "cbtn swal-btn",
+                    closeModal: true,
+                },
+              
+            });
+
+        }
+
+        
+        // showMessage('Devis envoyé !',
+        //     'Merci de nous faire confiance! Votre demande de devis a bien été  prise en compte . Notre équipe vous contactera très bientôt.', 'success');
+
+
+        
+</script>

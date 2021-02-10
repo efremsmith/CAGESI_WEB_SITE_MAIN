@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="gnU3mop" resname="Pourquoi choisir CAGESI SARL?">
+        <source>Pourquoi choisir CAGESI SARL?</source>
+        <target>Why choose CAGESI SARL?</target>
+      </trans-unit>
+      <trans-unit id="eSJpE6J" resname="CAGESI est une entreprise basée sur les nouvelles technologie.Pour ce fait il est specialisé dans le developpement des sites web, applications web, la formations dans le domaine&#10;                informatique. La sociéte prône sur le respect des droits de ses employés et donc est un cadre parfais pour vous d'apprendre et d'acquerir plus de connaissance.">
+        <source>CAGESI est une entreprise basée sur les nouvelles technologie.Pour ce fait il est specialisé dans le developpement des sites web, applications web, la formations dans le domaine
+                informatique. La sociéte prône sur le respect des droits de ses employés et donc est un cadre parfais pour vous d'apprendre et d'acquerir plus de connaissance.</source>
+        <target>CAGESI is a company based on new technologies, for this reason it is specialized in the development of websites, web applications, training in the field.
+                computer science. The company advocates respect for the rights of its employees and therefore is a perfect framework for you to learn and acquire more knowledge.</target>
+      </trans-unit>
+      <trans-unit id="SK08uLg" resname="Applications Web">
+        <source>Applications Web</source>
+        <target>Web applications</target>
+      </trans-unit>
+      <trans-unit id="P4Nh.iZ" resname="Devellopement des applications et sites web à des entreprises de la place et de l'exterieur du pays.">
+        <source>Devellopement des applications et sites web à des entreprises de la place et de l'exterieur du pays.</source>
+        <target>Development of applications and websites for companies in and outside the country.</target>
+      </trans-unit>
+      <trans-unit id="_8e_aDo" resname="Formations">
+        <source>Formations</source>
+        <target>Training</target>
+      </trans-unit>
+      <trans-unit id="_2n.z3C" resname="Nos formations sont parmis ceux des meilleurs faites par des meilleurs dans leur domaine.">
+        <source>Nos formations sont parmis ceux des meilleurs faites par des meilleurs dans leur domaine.</source>
+        <target>Our trainings are among the best ones made by the best in their field.</target>
+      </trans-unit>
+      <trans-unit id="G0UbEKt" resname="Assistance">
+        <source>Assistance</source>
+        <target>Assistance</target>
+      </trans-unit>
+      <trans-unit id="RoymANA" resname="De l'aide avec nous vous l'aurez rapide et efficace.">
+        <source>De l'aide avec nous vous l'aurez rapide et efficace.</source>
+        <target>Help with us will get you quickly and efficiently.</target>
+      </trans-unit>
+      <trans-unit id="VsoVw_D" resname="Avantage après la formation chez nous est que nous serrons avec vous pour deventuelles questions">
+        <source>Avantage après la formation chez nous est que nous serrons avec vous pour deventuelles questions</source>
+        <target>Advantage after the training with us is that we are with you for any questions.</target>
+      </trans-unit>
+      <trans-unit id="4gU.tot" resname="En ligne">
+        <source>En ligne</source>
+        <target>Online</target>
+      </trans-unit>
+      <trans-unit id="PD3TQpr" resname="Nous pouvons vous assistez à travers les reseaux sociaux.">
+        <source>Nous pouvons vous assistez à travers les reseaux sociaux.</source>
+        <target>We can assist you through social networks.</target>
+      </trans-unit>
+      <trans-unit id="T36VmjT" resname="Pris à main à distance">
+        <source>Pris à main à distance</source>
+        <target>Taken from a distance</target>
+      </trans-unit>
+      <trans-unit id="VrMkj7Q" resname="Nous pouvons prendre la main sur vos ordinateurs à distance pour resoudre vos problemes logiciels.">
+        <source>Nous pouvons prendre la main sur vos ordinateurs à distance pour resoudre vos problemes logiciels.</source>
+        <target>We can take control of your computers remotely to solve your software problems.</target>
+      </trans-unit>
+      <trans-unit id="gq_u8uN" resname="Assistance physique">
+        <source>Assistance physique</source>
+        <target>Physical assistance</target>
+      </trans-unit>
+      <trans-unit id="wexOHxD" resname="Avec l'assistance physique, nous pouvons vont rendre visite pour vous aider.">
+        <source>Avec l'assistance physique, nous pouvons vont rendre visite pour vous aider.</source>
+        <target>With physical assistance, we can go and visit to help you.</target>
+      </trans-unit>
+      <trans-unit id="CCXMmjZ" resname="Que disent nos clients">
+        <source>Que disent nos clients</source>
+        <target>What our clients say</target>
+      </trans-unit>
+      <trans-unit id="BT_NdaZ" resname="Aujourd’hui encore, nous nous félicitons de notre collaboration car vous disposez d’une équipe réactive, de qualité et&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;disponible qui se soucie de nos besoins et de nos différentes remarques.">
+        <source>Aujourd’hui encore, nous nous félicitons de notre collaboration car vous disposez d’une équipe réactive, de qualité et
+										disponible qui se soucie de nos besoins et de nos différentes remarques.</source>
+        <target>Even today, we welcome our collaboration because you have a responsive, quality and
+                    available who cares about our needs and our various remarks.</target>
+      </trans-unit>
+      <trans-unit id="X3zD_Si" resname="CAGESI SARL est un cabinet de qualité qui a su mettre en évidence des éléments déterminants dans l’établissement de l’avant-projet.&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;Force de proposition et précision, des recommandations ont été les atouts majeurs du cabinet lors de nos échanges.">
+        <source>CAGESI SARL est un cabinet de qualité qui a su mettre en évidence des éléments déterminants dans l’établissement de l’avant-projet.
+										Force de proposition et précision, des recommandations ont été les atouts majeurs du cabinet lors de nos échanges.</source>
+        <target>CAGESI SARL is a quality firm which has been able to highlight the determining elements in the establishment of the preliminary project.
+Strength of proposal and precision, recommendations were the firm's major assets during our discussions.</target>
+      </trans-unit>
+      <trans-unit id="fdXVYQq" resname="Merci pour la finesse de votre travail, votre écoute et les échanges que nous avons eu lors de nos rencontres.">
+        <source>Merci pour la finesse de votre travail, votre écoute et les échanges que nous avons eu lors de nos rencontres.</source>
+        <target>Thank you for the finesse of your work, your listening and the exchanges we had during our meetings.</target>
+      </trans-unit>
+      <trans-unit id="72CiaLG" resname="Souscrivez à la newsletter">
+        <source>Souscrivez à la newsletter</source>
+        <target>Subscribe to the newsletter</target>
+      </trans-unit>
+      <trans-unit id="ek8wlwM" resname="Souscrivez">
+        <source>Souscrivez</source>
+        <target>Subscribe</target>
+      </trans-unit>
+      <trans-unit id="PBylJ3T" resname="est une vitrine dédiée à tous nos projets et services informatiques, présents et à venir.">
+        <source>est une vitrine dédiée à tous nos projets et services informatiques, présents et à venir.</source>
+        <target>is a showcase dedicated to all our IT projects and services, present and future.</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="4od4_Sv" resname="Nos Solutions">
+        <source>Nos Solutions</source>
+        <target>Our solutions</target>
+      </trans-unit>
+      <trans-unit id="YE3ORF4" resname="Services">
+        <source>Services</source>
+        <target>Services</target>
+      </trans-unit>
+      <trans-unit id="tFBkXev" resname="Contacts">
+        <source>Contacts</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit id="mFULZxE" resname="Liens utiles">
+        <source>Liens utiles</source>
+        <target>Useful links</target>
+      </trans-unit>
+      <trans-unit id="kA.hL6o" resname="Solutions">
+        <source>Solutions</source>
+        <target>Solutions</target>
+      </trans-unit>
+      <trans-unit id="MUGK5iV" resname="Témoignages">
+        <source>Témoignages</source>
+        <target>Testimonials</target>
+      </trans-unit>
+      <trans-unit id="SgXnBFB" resname="A venir">
+        <source>A venir</source>
+        <target>To come up</target>
+      </trans-unit>
+      <trans-unit id="ux2eM5d" resname="Rue du Grand Séminaire, à 50m de la CEET Hedzranawoe">
+        <source>Rue du Grand Séminaire, à 50m de la CEET Hedzranawoe</source>
+        <target>Rue du Grand Séminaire, 50m from CEET Hedzranawoe</target>
+      </trans-unit>
+      <trans-unit id="0z4yQag" resname="CAGESI SARL Tout Droit réservé">
+        <source>CAGESI SARL Tout Droit réservé</source>
+        <target>CAGESI SARL All rights reserved</target>
+      </trans-unit>
+      <trans-unit id="OnZPg8H" resname="Avis de nos clients satisfait de nos formations et Assistance">
+        <source>Avis de nos clients satisfait de nos formations et Assistance</source>
+        <target>Reviews of our customers satisfied with our training and assistance</target>
+      </trans-unit>
+      <trans-unit id="KUpWP_q" resname="Magnifique formation. Très pratico-pratique on en ressort avec tous les éléments nécessaire pour faire nos choix de systèmes. &#10;                Bravo au formateur jamais mis en défaut malgré la diversité et multiplicité des questions. Formation à encourager sans hésitation.">
+        <source>Magnifique formation. Très pratico-pratique on en ressort avec tous les éléments nécessaire pour faire nos choix de systèmes. 
+                Bravo au formateur jamais mis en défaut malgré la diversité et multiplicité des questions. Formation à encourager sans hésitation.</source>
+        <target>Wonderful training. Very practical, we come out with all the elements necessary to make our system choices.
+                Well done to the trainer who was never faulted despite the diversity and multiplicity of questions. Training to be encouraged without hesitation.</target>
+      </trans-unit>
+      <trans-unit id="OaExYI4" resname="Bonjour,La formation délivrée par Benoît Marsille de Rom-arrange est d une très grande qualité. C est à la fois clair et simple pour le débutant et très &#10;                technique pour celui qui veut aller plus loin...beaucoup plus loin . Benoit ne semble pas avoir de limite dans sa connaissance de l’informatique embarquée. &#10;                Je recommande.">
+        <source>Bonjour,La formation délivrée par Benoît Marsille de Rom-arrange est d une très grande qualité. C est à la fois clair et simple pour le débutant et très 
+                technique pour celui qui veut aller plus loin...beaucoup plus loin . Benoit ne semble pas avoir de limite dans sa connaissance de l’informatique embarquée. 
+                Je recommande.</source>
+        <target>Hello, The training provided is of a very high quality. It is both clear and simple for the beginner and very
+                technique for those who want to go further ... much further. Benoit does not seem to have a limit in his knowledge of on-board computing.
+                I recommend.</target>
+      </trans-unit>
+      <trans-unit id="dyUEvXM" resname="Excellente formation très pédagogique dans un domaine tres diverses et pas toujours facile à appréhender. Merci au formateur qui a su rendre cette &#10;                formation intéressante.">
+        <source>Excellente formation très pédagogique dans un domaine tres diverses et pas toujours facile à appréhender. Merci au formateur qui a su rendre cette 
+                formation intéressante.</source>
+        <target>Excellent very educational training in a very diverse field and not always easy to understand. Thanks to the trainer who made this
+                interesting training.</target>
+      </trans-unit>
+      <trans-unit id="jgSsN8p" resname="Très bien, très utile et j'ai appris beaucoup. La diversité des niveaux de chacun a conduit à des discussions pointues qui me sont parfois passées &#10;                largement au-dessus mais cela n'ôte rien à la qualité et à l'intérêt de la formation.">
+        <source>Très bien, très utile et j'ai appris beaucoup. La diversité des niveaux de chacun a conduit à des discussions pointues qui me sont parfois passées 
+                largement au-dessus mais cela n'ôte rien à la qualité et à l'intérêt de la formation.</source>
+        <target>Very good, very helpful and I learned a lot. The diversity of the levels of each one led to sharp discussions which sometimes passed to me
+                well above, but that does not detract from the quality and interest of the training.</target>
+      </trans-unit>
+      <trans-unit id="xHZapMG" resname="Super formation! j'en attendais beaucoup et j'ai été servi; je vais pouvoir équiper mon projet en comprenant comment et pourquoi, c'est l'essentiel .">
+        <source>Super formation! j'en attendais beaucoup et j'ai été servi; je vais pouvoir équiper mon projet en comprenant comment et pourquoi, c'est l'essentiel .</source>
+        <target>Great training! I expected a lot and I was served; I will be able to equip my project by understanding how and why, that's the essential.</target>
+      </trans-unit>
+      <trans-unit id="TD5FpIQ" resname="Contact pour renseignement supplementaires">
+        <source>Contact pour renseignement supplementaires</source>
+        <target>Contact for further information</target>
+      </trans-unit>
+      <trans-unit id="s11lzPz" resname="Nous sommes à votre disposition 24hr/24 et 7jr/7 pour repondre au mieux à vos problemes">
+        <source>Nous sommes à votre disposition 24hr/24 et 7jr/7 pour repondre au mieux à vos problemes</source>
+        <target>We are at your disposal 24 hours a day, 7 days a week to best respond to your problems</target>
+      </trans-unit>
+      <trans-unit id="KFAkrbi" resname="lieu:">
+        <source>lieu:</source>
+        <target>location:</target>
+      </trans-unit>
+      <trans-unit id="7PmaZtJ" resname="Nos Domaines de formations">
+        <source>Nos Domaines de formations</source>
+        <target>Our training areas</target>
+      </trans-unit>
+      <trans-unit id="k5nIp23" resname="On vous apporte de l'aide pour combler vos besoins et encore plus. Ce n'est qu'une partie de nos domaine de formations">
+        <source>On vous apporte de l'aide pour combler vos besoins et encore plus. Ce n'est qu'une partie de nos domaine de formations</source>
+        <target>We bring you help to meet your needs and more. This is only part of our training areas</target>
+      </trans-unit>
+      <trans-unit id="fOdc_ki" resname="Comptabilité">
+        <source>Comptabilité</source>
+        <target>Accounting</target>
+      </trans-unit>
+      <trans-unit id="FRVLozN" resname="Analyse de base de donnée">
+        <source>Analyse de base de donnée</source>
+        <target>Database analysis</target>
+      </trans-unit>
+      <trans-unit id="NqHqWx8" resname="Maintenance Informatique">
+        <source>Maintenance Informatique</source>
+        <target>Computer maintenance</target>
+      </trans-unit>
+      <trans-unit id="5EGfyy." resname="Developpement d'application">
+        <source>Developpement d'application</source>
+        <target>Application development</target>
+      </trans-unit>
+      <trans-unit id="KOwjPw9" resname="Vous avez un BAC G ou un diplome universitaire mais pas assez de base en saari compta">
+        <source>Vous avez un BAC G ou un diplome universitaire mais pas assez de base en saari compta</source>
+        <target>You have a BAC G or a university degree but not enough basic saari accounting</target>
+      </trans-unit>
+      <trans-unit id="6Wpbf8m" resname="Nos formations pour les comptables sont mis à votre disposition pour vous facilité l'integration dans le domaine de saari compta et sa maitrisse.">
+        <source>Nos formations pour les comptables sont mis à votre disposition pour vous facilité l'integration dans le domaine de saari compta et sa maitrisse.</source>
+        <target>Our training courses for accountants are at your disposal to facilitate your integration into the field of saari compta and its mastery.</target>
+      </trans-unit>
+      <trans-unit id="AztK6Hk" resname="Microsoft Office">
+        <source>Microsoft Office</source>
+        <target>Microsoft Office</target>
+      </trans-unit>
+      <trans-unit id="yCsgoB_" resname="Vous voulez augmenter vos connaissances ou acquerir des connaissances office">
+        <source>Vous voulez augmenter vos connaissances ou acquerir des connaissances office</source>
+        <target>You want to increase your knowledge or acquire office knowledge</target>
+      </trans-unit>
+      <trans-unit id="O4Ia22i" resname="Nos formations pour les suites bureautiques sont mis à votre disposition pour vous facilité son utilisation pour vos besoins et se familiarisé avec l'outils.">
+        <source>Nos formations pour les suites bureautiques sont mis à votre disposition pour vous facilité son utilisation pour vos besoins et se familiarisé avec l'outils.</source>
+        <target>Our training courses for office suites are made available to you to facilitate its use for your needs and to become familiar with the tools.</target>
+      </trans-unit>
+      <trans-unit id="4i3T0y_" resname="Vous êtes developpeur d'application et vous avez des problemes avec l'analyse">
+        <source>Vous êtes developpeur d'application et vous avez des problemes avec l'analyse</source>
+        <target>You are an application developer and you have problems with the analysis</target>
+      </trans-unit>
+      <trans-unit id="0uQCyBE" resname="Cette formations est specialement proposée aux etudiants qui aprés leur etudes ont encore du mal pour faire l'analyse de données afin de bien faire vos projets.Cette formations est accéleré et vraiment interresant.">
+        <source>Cette formations est specialement proposée aux etudiants qui aprés leur etudes ont encore du mal pour faire l'analyse de données afin de bien faire vos projets.Cette formations est accéleré et vraiment interresant.</source>
+        <target>This training is specially offered to students who after their studies still have trouble doing data analysis in order to do your projects well. This training is accelerated and really interesting.</target>
+      </trans-unit>
+      <trans-unit id="qebxHzU" resname="Vous avez fait des etudes de maintenance informatique et vous cherchez à connaitre la partie pratique">
+        <source>Vous avez fait des etudes de maintenance informatique et vous cherchez à connaitre la partie pratique</source>
+        <target>You have done computer maintenance studies and you want to know the practical part</target>
+      </trans-unit>
+      <trans-unit id="2.sL1SJ" resname="La formation de maintenace ne concerne pas uniquement les etudiants mais tous ceux qui veulent apprendre pour pouvoir s'en sortir toute seul devant les pannes de leur ordinateurs ou installés des reseuax informatique à la maison.Cette formation est trés essentiel pour tous le monde.">
+        <source>La formation de maintenace ne concerne pas uniquement les etudiants mais tous ceux qui veulent apprendre pour pouvoir s'en sortir toute seul devant les pannes de leur ordinateurs ou installés des reseuax informatique à la maison.Cette formation est trés essentiel pour tous le monde.</source>
+        <target>Maintenance training is not only for students but for all those who want to learn to be able to cope on their own when their computers fail or install computer systems at home. This training is very essential for everyone.</target>
+      </trans-unit>
+      <trans-unit id="jgBPe8c" resname="Vous voulez vous aussi developpé les sites web ou un petit projet desktop.">
+        <source>Vous voulez vous aussi developpé les sites web ou un petit projet desktop.</source>
+        <target>You too want to develop websites or a small desktop project.</target>
+      </trans-unit>
+      <trans-unit id="OSzrVMn" resname="Cette formation est specialement pour les etudiant de mise à niveau ou apprendre les bases avant la rentrée universitaires ou des particuliers qui veulent developpé des petits programmes pour gérer leurs affaires eux même.Cette formation demande asiduité et comprehension et vous serrez les meilleurs.">
+        <source>Cette formation est specialement pour les etudiant de mise à niveau ou apprendre les bases avant la rentrée universitaires ou des particuliers qui veulent developpé des petits programmes pour gérer leurs affaires eux même.Cette formation demande asiduité et comprehension et vous serrez les meilleurs.</source>
+        <target>This training is especially for students upgrading or learning the basics before starting university or individuals who want to develop small programs to manage their own business. This training requires diligence and understanding and you will be the best.</target>
+      </trans-unit>
+      <trans-unit id="DnzPHCQ" resname="Formateurs">
+        <source>Formateurs</source>
+        <target>Formateurs</target>
+      </trans-unit>
+      <trans-unit id="3NUDcUE" resname="Nos formateurs sont des professeurs qualifiés et qui ont prouvés leur savoir faire sur le terrain">
+        <source>Nos formateurs sont des professeurs qualifiés et qui ont prouvés leur savoir faire sur le terrain</source>
+        <target>Our trainers are qualified teachers who have proven their know-how in the field</target>
+      </trans-unit>
+      <trans-unit id="nMyRTsg" resname="Tous vos soucis sur les suites bureautiques microsoft">
+        <source>Tous vos soucis sur les suites bureautiques microsoft</source>
+        <target>All your worries about microsoft office suites</target>
+      </trans-unit>
+      <trans-unit id="8A09o_8" resname="Ils est à votre disposition pour vos problemes de Merise">
+        <source>Ils est à votre disposition pour vos problemes de Merise</source>
+        <target>They are at your disposal for your Merise problems</target>
+      </trans-unit>
+      <trans-unit id="vVGJift" resname="Tous vos soucis de programmations dans toutes les languages">
+        <source>Tous vos soucis de programmations dans toutes les languages</source>
+        <target>All your programming worries in all languages</target>
+      </trans-unit>
+      <trans-unit id="5.lwi7q" resname="Pour tous vos soucis il est mis à votre disposition un professionnel">
+        <source>Pour tous vos soucis il est mis à votre disposition un professionnel</source>
+        <target>For all your concerns, a professional is at your disposal</target>
+      </trans-unit>
+      <trans-unit id="3hvuHZU" resname="Bienvenu">
+        <source>Bienvenu</source>
+        <target>Welcome</target>
+      </trans-unit>
+      <trans-unit id="3X5AMrX" resname="Voir aussi">
+        <source>Voir aussi</source>
+        <target>See as well</target>
+      </trans-unit>
+      <trans-unit id="kPjtlXw" resname="Gestion d'Entreprise">
+        <source>Gestion d'Entreprise</source>
+        <target>Business Management</target>
+      </trans-unit>
+      <trans-unit id="77jbHpa" resname="Systèmes Informatiques">
+        <source>Systèmes Informatiques</source>
+        <target>Informatic Systems</target>
+      </trans-unit>
+      <trans-unit id="PgLHYOH" resname="Offre de stage">
+        <source>Offre de stage</source>
+        <target>Internship offer</target>
+      </trans-unit>
+      <trans-unit id="DDOaGjl" resname="Vous êtes à la recherche d'un stage pour faire votre memoire ou vous cherchez un stage de mise à niveau.">
+        <source>Vous êtes à la recherche d'un stage pour faire votre memoire ou vous cherchez un stage de mise à niveau.</source>
+        <target>You are looking for an internship to do your dissertation or you are looking for a refresher internship.</target>
+      </trans-unit>
+      <trans-unit id="zUdDp2v" resname="Avec ce stage vous irez sur le terrain faire des pratiques approfondie.">
+        <source>Avec ce stage vous irez sur le terrain faire des pratiques approfondie.</source>
+        <target>With this internship you will go to the field to do in-depth practices.</target>
+      </trans-unit>
+      <trans-unit id="dpThXey" resname="Vous aurez des projets sur lesquels vous allez travaillez et faire de vous un bon developpeur.">
+        <source>Vous aurez des projets sur lesquels vous allez travaillez et faire de vous un bon developpeur.</source>
+        <target>You will have projects that you are going to work on and make you a good developer.</target>
+      </trans-unit>
+      <trans-unit id="0fBYdSf" resname="Vous aurez la maitrise de la comptabilité côté entreprise avec nos stages.">
+        <source>Vous aurez la maitrise de la comptabilité côté entreprise avec nos stages.</source>
+        <target>You will have mastery of accounting on the business side with our internships.</target>
+      </trans-unit>
+      <trans-unit id="7kZagBc" resname="Acceuil">
+        <source>Acceuil</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="7xxLRfL" resname="services">
+        <source>services</source>
+        <target>services</target>
+      </trans-unit>
+      <trans-unit id="CT59X9u" resname="contact">
+        <source>contact</source>
+        <target>contact</target>
+      </trans-unit>
+      <trans-unit id="K7iKgAf" resname="Boutique">
+        <source>Boutique</source>
+        <target>Shop</target>
+      </trans-unit>
+      <trans-unit id="ziOArVE" resname="CAGESISARL Tout Droit Reservé">
+        <source>CAGESISARL Tout Droit Reservé</source>
+        <target>CAGESISARL All rights reserved</target>
+      </trans-unit>
+      <trans-unit id="wxG6xCB" resname="La Gestion de votre Entreprise de sécurité">
+        <source>La Gestion de votre Entreprise de sécurité</source>
+        <target>Managing your security company</target>
+      </trans-unit>
+      <trans-unit id="e8xN7_8" resname="APPLICATION Web">
+        <source>APPLICATION Web</source>
+        <target>Web application</target>
+      </trans-unit>
+      <trans-unit id="x7zp.Wh" resname="La gestion de stock dans tout son ensemble">
+        <source>La gestion de stock dans tout son ensemble</source>
+        <target>Stock management as a whole</target>
+      </trans-unit>
+      <trans-unit id="l9RfmTb" resname="Pour une bonne gestion de votre Salon de Beauté">
+        <source>Pour une bonne gestion de votre Salon de Beauté</source>
+        <target>For a good management of your Beauty Salon</target>
+      </trans-unit>
+      <trans-unit id="AWb04pf" resname="Produits à venir">
+        <source>Produits à venir</source>
+        <target>Upcoming products</target>
+      </trans-unit>
+      <trans-unit id="fNPcrQ4" resname="Hôtellerie">
+        <source>Hôtellerie</source>
+        <target>Hotel</target>
+      </trans-unit>
+      <trans-unit id="dNh33aT" resname="Gestion Hôtel">
+        <source>Gestion Hôtel</source>
+        <target>Hotel management</target>
+      </trans-unit>
+      <trans-unit id="n8fRWJv" resname="Tous les départements">
+        <source>Tous les départements</source>
+        <target>All departments</target>
+      </trans-unit>
+      <trans-unit id="n5bRYEJ" resname="Quelle que soit la classification en étoiles de l’hôtel (1, 2, 3, 4 et 5 étoiles selon les services et les installations qu’il fournit),&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;Nous vous offrirons une application fiable et performante.">
+        <source>Quelle que soit la classification en étoiles de l’hôtel (1, 2, 3, 4 et 5 étoiles selon les services et les installations qu’il fournit),
+										Nous vous offrirons une application fiable et performante.</source>
+        <target>Regardless of the hotel's star rating (1, 2, 3, 4 and 5 stars depending on the services and facilities it provides),
+                    We will offer you a reliable and efficient application.</target>
+      </trans-unit>
+      <trans-unit id="fRyNceC" resname="Santé">
+        <source>Santé</source>
+        <target>Health</target>
+      </trans-unit>
+      <trans-unit id="mf3BHVr" resname="Gestion Clinique">
+        <source>Gestion Clinique</source>
+        <target>Clinical management</target>
+      </trans-unit>
+      <trans-unit id="49jAWdJ" resname="Toutes les divisions">
+        <source>Toutes les divisions</source>
+        <target>All divisions</target>
+      </trans-unit>
+      <trans-unit id="IpwCgz7" resname="C'est un système de gestion de clinique efficace à un prix plus abordable et qui vous facilitera la gestion de votre activité.">
+        <source>C'est un système de gestion de clinique efficace à un prix plus abordable et qui vous facilitera la gestion de votre activité.</source>
+        <target>It is an efficient clinic management system at a more affordable price that will make it easier for you to manage your business.</target>
+      </trans-unit>
+      <trans-unit id="Mhd.AOP" resname="Avez-vous besoin d'une solution particulière et sur mesure ? Notre&#10; équipe est disponible">
+        <source>Avez-vous besoin d'une solution particulière et sur mesure ? Notre
+ équipe est disponible</source>
+        <target>Do you need a specific and tailor-made solution? Our
+                            team is available</target>
+      </trans-unit>
+      <trans-unit id="okUaYIr" resname="Pour tous vos besoins en logiciel, en infographie, en community&#10; manager, notre équipe est prête à intervenir sur vos demandes.">
+        <source>Pour tous vos besoins en logiciel, en infographie, en community
+ manager, notre équipe est prête à intervenir sur vos demandes.</source>
+        <target>For all your software, computer graphics, community needs
+                            manager, our team is ready to intervene on your requests.</target>
+      </trans-unit>
+      <trans-unit id="325_ykk" resname="Faire un Devis">
+        <source>Faire un Devis</source>
+        <target>Make an estimate</target>
+      </trans-unit>
+      <trans-unit id="7BVlp5U" resname="Commandez un de nos produits">
+        <source>Commandez un de nos produits</source>
+        <target>Order one of our products</target>
+      </trans-unit>
+      <trans-unit id="Iso5mKt" resname="commander maintenant">
+        <source>commander maintenant</source>
+        <target>order now</target>
+      </trans-unit>
+      <trans-unit id="DKKWVHA" resname="Nos services">
+        <source>Nos services</source>
+        <target>Our services</target>
+      </trans-unit>
+      <trans-unit id="alfPx7z" resname="Application de Gestion">
+        <source>Application de Gestion</source>
+        <target>Management application</target>
+      </trans-unit>
+      <trans-unit id="SbvUrC0" resname="Les meilleures applications de gestion d’entreprise pour suivre vos activités de partout à n'importe quelle heure. &#10;&#9;&#9;&#9;&#9;&#9;Vous pouvez y accéder sur vos smartphones, ordinateurs et autres supports technologiques.">
+        <source>Les meilleures applications de gestion d’entreprise pour suivre vos activités de partout à n'importe quelle heure. 
+					Vous pouvez y accéder sur vos smartphones, ordinateurs et autres supports technologiques.</source>
+        <target>The best business management apps to track your business anywhere, anytime.
+          You can access it on your smartphones, computers and other technological media.</target>
+      </trans-unit>
+      <trans-unit id="ueGcT3L" resname="Conception de sites web">
+        <source>Conception de sites web</source>
+        <target>Web design</target>
+      </trans-unit>
+      <trans-unit id="_8S.SYw" resname="Le-saviez vous déjà? La présence sur Internet est indispensable à ce jour pour avoir une visibilité auprès de vos clients et de vos prospects. &#10;&#9;&#9;&#9;&#9;&#9;Ainsi nous vous offrons un site de haute qualité selon vos exigences et celles de vos clients.">
+        <source>Le-saviez vous déjà? La présence sur Internet est indispensable à ce jour pour avoir une visibilité auprès de vos clients et de vos prospects. 
+					Ainsi nous vous offrons un site de haute qualité selon vos exigences et celles de vos clients.</source>
+        <target>Did you already know? Internet presence is essential today to have visibility with your customers and your prospects.
+          Thus we offer you a high quality site according to your requirements and those of your customers.</target>
+      </trans-unit>
+      <trans-unit id="lbGijFH" resname="Intégration  de module">
+        <source>Intégration  de module</source>
+        <target>Module integration</target>
+      </trans-unit>
+      <trans-unit id="csJVCer" resname="Nous pouvons installer et configurer vos différentes solutions et y intégrer les modules de votre choix.">
+        <source>Nous pouvons installer et configurer vos différentes solutions et y intégrer les modules de votre choix.</source>
+        <target>We can install and configure your different solutions and integrate the modules of your choice.</target>
+      </trans-unit>
+      <trans-unit id="PrlcvvJ" resname="formation">
+        <source>formation</source>
+        <target>training</target>
+      </trans-unit>
+      <trans-unit id="p5VDv.t" resname="Nous enseignons aux employés et chefs d'entreprises ou non les connaissances nécessaires pour une utilisation facile de nos systèmes.">
+        <source>Nous enseignons aux employés et chefs d'entreprises ou non les connaissances nécessaires pour une utilisation facile de nos systèmes.</source>
+        <target>We teach employees and business leaders or not the knowledge necessary for easy use of our systems.</target>
+      </trans-unit>
+      <trans-unit id="Xq9Gp9H" resname="Assistance en ligne">
+        <source>Assistance en ligne</source>
+        <target>Online assistance</target>
+      </trans-unit>
+      <trans-unit id="g2No2_z" resname="Après avoir se connecté à notre plateforme &quot;Aidez-moi&quot;, vous aurez accès à toutes nos ressources pour vous assister depuis chez vous.&#10;&#9;&#9;&#9;&#9;&#9;&#9;Vous pouvez être également rediriger automatiquement vers notre service le plus adapté (accessible 24h/24 et 7j/7) pour une prise en charge rapide.&#10;&#9;&#9;&#9;&#9;&#9;&#9;Chaque client a ses identifiants qui sont livrés à l’abonnement aux services assistances en ligne.">
+        <source>Après avoir se connecté à notre plateforme "Aidez-moi", vous aurez accès à toutes nos ressources pour vous assister depuis chez vous.
+						Vous pouvez être également rediriger automatiquement vers notre service le plus adapté (accessible 24h/24 et 7j/7) pour une prise en charge rapide.
+						Chaque client a ses identifiants qui sont livrés à l’abonnement aux services assistances en ligne.</source>
+        <target>After logging in to our "Help me" platform, you will have access to all our resources to assist you from your home.
+          You can also be automatically redirected to our most suitable service (accessible 24 hours a day, 7 days a week) for quick support.
+          Each customer has their identifiers which are delivered to the subscription to online support services.</target>
+      </trans-unit>
+      <trans-unit id="F8z6W2g" resname="Maintenance">
+        <source>Maintenance</source>
+        <target>Maintenance</target>
+      </trans-unit>
+      <trans-unit id="nxPxli1" resname="Les actions de dépannage et de réparation, de réglage, de révision, de contrôle que nous avons l'habitude de faire par nos mises à jour sur les différentes&#10;&#9;&#9;&#9;&#9;&#9;&#9;plateformes de nos clients sont la maintenance. Ces mises à jour prennent en compte nos notes pendant nos conférences en ligne &#10;&#9;&#9;&#9;&#9;&#9;&#9;ou nos visites d'écoutes sur l'utilisation.">
+        <source>Les actions de dépannage et de réparation, de réglage, de révision, de contrôle que nous avons l'habitude de faire par nos mises à jour sur les différentes
+						plateformes de nos clients sont la maintenance. Ces mises à jour prennent en compte nos notes pendant nos conférences en ligne 
+						ou nos visites d'écoutes sur l'utilisation.</source>
+        <target>The actions of troubleshooting and repair, adjustment, overhaul, control that we are used to doing through our updates on the various
+            our customers' platforms are maintenance. These updates take into account our notes during our online conferences
+            or our listening visits on use.</target>
+      </trans-unit>
+      <trans-unit id=".jZkLiZ" resname="Envoyer un email">
+        <source>Envoyer un email</source>
+        <target>Send an email</target>
+      </trans-unit>
+      <trans-unit id=".RPDosA" resname="Envoyer message">
+        <source>Envoyer message</source>
+        <target>Send Message</target>
+      </trans-unit>
+      <trans-unit id="rF4TXJe" resname="Contactez nous">
+        <source>Contactez nous</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="zvy2CHx" resname="Notre équipe est disposée à vous repondre par rapport à toutes vos inquiétudes. N'hesitez pas à nous contacter.">
+        <source>Notre équipe est disposée à vous repondre par rapport à toutes vos inquiétudes. N'hesitez pas à nous contacter.</source>
+        <target>Our team is ready to answer all of your concerns. Do not hesitate to contact us.</target>
+      </trans-unit>
+      <trans-unit id="dKnvvgp" resname="Les meilleures applications de gestion d’entreprise pour suivre vos activités de partout à n'importe quelle heure. &#10;                        Vous pouvez y accéder sur vos smartphones, ordinateurs et autres supports technologiques.">
+        <source>Les meilleures applications de gestion d’entreprise pour suivre vos activités de partout à n'importe quelle heure. 
+                        Vous pouvez y accéder sur vos smartphones, ordinateurs et autres supports technologiques.</source>
+        <target>The best business management apps to track your business anywhere, anytime.
+                        You can access it on your smartphones, computers and other technological media.</target>
+      </trans-unit>
+      <trans-unit id="Kx8r_Wo" resname="Le-saviez vous déjà? La présence sur Internet est indispensable à ce jour pour avoir une visibilité auprès de vos clients et de vos prospects. &#10;                        Ainsi nous vous offrons un site de haute qualité selon vos exigences et celles de vos clients.">
+        <source>Le-saviez vous déjà? La présence sur Internet est indispensable à ce jour pour avoir une visibilité auprès de vos clients et de vos prospects. 
+                        Ainsi nous vous offrons un site de haute qualité selon vos exigences et celles de vos clients.</source>
+        <target>Did you already know? Internet presence is essential today to have visibility with your customers and your prospects.
+                        Thus we offer you a high quality site according to your requirements and those of your customers.</target>
+      </trans-unit>
+      <trans-unit id="jzThfHz" resname="La formation">
+        <source>La formation</source>
+        <target>Training</target>
+      </trans-unit>
+      <trans-unit id="InQ9TzK" resname="Après avoir se connecté à notre plateforme &quot;Aidez-moi&quot;, vous aurez accès à toutes nos ressources pour vous assister depuis chez vous.&#10;                            Vous pouvez être également rediriger automatiquement vers notre service le plus adapté (accessible 24h/24 et 7j/7) pour une prise en charge rapide.&#10;                            Chaque client a ses identifiants qui sont livrés à l’abonnement aux services assistances en ligne.">
+        <source>Après avoir se connecté à notre plateforme "Aidez-moi", vous aurez accès à toutes nos ressources pour vous assister depuis chez vous.
+                            Vous pouvez être également rediriger automatiquement vers notre service le plus adapté (accessible 24h/24 et 7j/7) pour une prise en charge rapide.
+                            Chaque client a ses identifiants qui sont livrés à l’abonnement aux services assistances en ligne.</source>
+        <target>After logging in to our "Help me" platform, you will have access to all our resources to assist you from your home.
+                  You can also be automatically redirected to our most suitable service (accessible 24 hours a day, 7 days a week) for quick support.
+                  Each customer has their identifiers which are delivered to the subscription to online support services.</target>
+      </trans-unit>
+      <trans-unit id="B1CHpIf" resname="Les actions de dépannage et de réparation, de réglage, de révision, de contrôle que nous avons l'habitude de faire par nos mises à jour sur les différentes&#10;                            plateformes de nos clients sont la maintenance. Ces mises à jour prennent en compte nos notes pendant nos conférences en ligne ou nos visites &#10;                            d'écoutes sur l'utilisation.">
+        <source>Les actions de dépannage et de réparation, de réglage, de révision, de contrôle que nous avons l'habitude de faire par nos mises à jour sur les différentes
+                            plateformes de nos clients sont la maintenance. Ces mises à jour prennent en compte nos notes pendant nos conférences en ligne ou nos visites 
+                            d'écoutes sur l'utilisation.</source>
+        <target>The actions of troubleshooting and repair, adjustment, overhaul, control that we are used to doing through our updates on the various
+                our customers' platforms are maintenance. These updates take into account our notes during our online conferences or visits
+                    listening on use.</target>
+      </trans-unit>
+      <trans-unit id="86C16Ph" resname="Quelques chiffres">
+        <source>Quelques chiffres</source>
+        <target>Some numbers</target>
+      </trans-unit>
+      <trans-unit id="wMFKqWi" resname="Technologies récentes">
+        <source>Technologies récentes</source>
+        <target>Recent technologies</target>
+      </trans-unit>
+      <trans-unit id="_9TFII." resname="Plateforme multiple">
+        <source>Plateforme multiple</source>
+        <target>Multiple platform</target>
+      </trans-unit>
+      <trans-unit id="1TtSPmg" resname="Services après-vente">
+        <source>Services après-vente</source>
+        <target>After sales services</target>
+      </trans-unit>
+      <trans-unit id="RxBTt3r" resname="Technologies récentes.">
+        <source>Technologies récentes.</source>
+        <target>Recent technologies.</target>
+      </trans-unit>
+      <trans-unit id="CCG49n9" resname="En phase avec l'évolution technologique, nous proposons des services (applications, sites web...)&#10;                                        en tenant compte des technologies qui sont d'actualité.">
+        <source>En phase avec l'évolution technologique, nous proposons des services (applications, sites web...)
+                                        en tenant compte des technologies qui sont d'actualité.</source>
+        <target>In line with technological developments, we offer services (applications, websites, etc.)
+                                        taking into account the technologies that are topical.</target>
+      </trans-unit>
+      <trans-unit id="n6h67Tr" resname="Des applications multiplateformes.">
+        <source>Des applications multiplateformes.</source>
+        <target>Cross-platform applications.</target>
+      </trans-unit>
+      <trans-unit id="oHzKuma" resname="Nous concevons des logiciels fonctionnant dans plusieurs environnements&#10; permettant la gestion et/ou l'utilisation de services applicatifs.">
+        <source>Nous concevons des logiciels fonctionnant dans plusieurs environnements
+ permettant la gestion et/ou l'utilisation de services applicatifs.</source>
+        <target>We design software that works in multiple environments
+                  allowing the management and / or use of application services.</target>
+      </trans-unit>
+      <trans-unit id="rMpPYA6" resname="Service d'assistance">
+        <source>Service d'assistance</source>
+        <target>Assistance services</target>
+      </trans-unit>
+      <trans-unit id="9LufHp0" resname="accessible à distance.">
+        <source>accessible à distance.</source>
+        <target>remote accessible.</target>
+      </trans-unit>
+      <trans-unit id="t4Sr5UO" resname="Nous assistons à distance toute personne morale ou physique ayant sollicité&#10; notre expertise.">
+        <source>Nous assistons à distance toute personne morale ou physique ayant sollicité
+ notre expertise.</source>
+        <target>We provide remote assistance to any legal or natural person who has requested
+                                        our expertise.</target>
+      </trans-unit>
+      <trans-unit id="XIwCZSD" resname="Relation avec les clients">
+        <source>Relation avec les clients</source>
+        <target>Relationship with clients</target>
+      </trans-unit>
+      <trans-unit id="1103b6k" resname="Pour créer un climat de confiance entre le client et nous, demandons ce que vous pensez de nos prestations. Ceci étant nous sommes à votre&#10;                                        entière disposition jusqu'à satisfaction complète.">
+        <source>Pour créer un climat de confiance entre le client et nous, demandons ce que vous pensez de nos prestations. Ceci étant nous sommes à votre
+                                        entière disposition jusqu'à satisfaction complète.</source>
+        <target>To create a climate of trust between the client and us, ask what you think of our services. However, we are at your service
+                                        entire disposal until complete satisfaction.</target>
+      </trans-unit>
+      <trans-unit id="BF5fqFc" resname="Clients satisfaits">
+        <source>Clients satisfaits</source>
+        <target>Satisfied customers</target>
+      </trans-unit>
+      <trans-unit id="b5e2o2M" resname="Nos solutions">
+        <source>Nos solutions</source>
+        <target>Ours solutions</target>
+      </trans-unit>
+      <trans-unit id="FOMGljN" resname="La gestion de votre entreprise de sécurité">
+        <source>La gestion de votre entreprise de sécurité</source>
+        <target>Managing your security company</target>
+      </trans-unit>
+      <trans-unit id="YyRNlGq" resname="Gerer tous les domaines de vos écoles">
+        <source>Gerer tous les domaines de vos écoles</source>
+        <target>Manage all areas of your schools</target>
+      </trans-unit>
+      <trans-unit id="QwYnX_y" resname="APPLICATION web">
+        <source>APPLICATION web</source>
+        <target>Web APPLICATION</target>
+      </trans-unit>
+      <trans-unit id="b.bCNXx" resname="Choisissez une de nos solutions">
+        <source>Choisissez une de nos solutions</source>
+        <target>Choose one of our solutions</target>
+      </trans-unit>
+      <trans-unit id="BBDELcM" resname="Envoyez-maintenant">
+        <source>Envoyez-maintenant</source>
+        <target>Send now</target>
+      </trans-unit>
+      <trans-unit id="77oPTN0" resname="Avez-vous besoin d'une solution particulière et sur mesure ? Notre équipe est disponible">
+        <source>Avez-vous besoin d'une solution particulière et sur mesure ? Notre équipe est disponible</source>
+        <target>Do you need a specific and tailor-made solution? Our
+                            team is available</target>
+      </trans-unit>
+      <trans-unit id="KVGQhDE" resname="Pour tous vos besoins en logiciel, en infographie, en community manager, notre équipe est prête à intervenir sur vos demandes.">
+        <source>Pour tous vos besoins en logiciel, en infographie, en community manager, notre équipe est prête à intervenir sur vos demandes.</source>
+        <target>For all your software, computer graphics, community needs
+                            manager, our team is ready to respond to your requests.</target>
+      </trans-unit>
+      <trans-unit id="OtYNTTa" resname="Nous concevons des logiciels fonctionnant dans plusieurs environnements permettant la gestion et/ou l'utilisation de services applicatifs.">
+        <source>Nous concevons des logiciels fonctionnant dans plusieurs environnements permettant la gestion et/ou l'utilisation de services applicatifs.</source>
+        <target>We design software that works in multiple environments allowing the management and / or use of application services.</target>
+      </trans-unit>
+      <trans-unit id="W8_BfEi" resname="Nous assistons à distance toute personne morale ou physique ayant sollicité notre expertise.">
+        <source>Nous assistons à distance toute personne morale ou physique ayant sollicité notre expertise.</source>
+        <target>We provide remote assistance to any legal or natural person who has requested our expertise.</target>
+      </trans-unit>
+      <trans-unit id="CFGlud5" resname="Avez-vous besoin d'une solution particulière et sur mesure? Notre équipe est disponible">
+        <source>Avez-vous besoin d'une solution particulière et sur mesure? Notre équipe est disponible</source>
+        <target>Do you need a specific and tailor-made solution? Our
+                            team is available</target>
+      </trans-unit>
+      <trans-unit id="H6QpTXV" resname="Pour tous vos besoins en logiciel, en infographie, en community  manager, notre équipe est prête à intervenir sur vos demandes.">
+        <source>Pour tous vos besoins en logiciel, en infographie, en community  manager, notre équipe est prête à intervenir sur vos demandes.</source>
+        <target>For all your software, computer graphics, community needs
+                            manager, our team is ready to respond to your requests.</target>
+      </trans-unit>
+      <trans-unit id="x5Mup.M" resname="SYSTEMES INFORMATIQUES">
+        <source>SYSTEMES INFORMATIQUES</source>
+        <target>Computer System</target>
+      </trans-unit>
+      <trans-unit id=".3U8OIJ" resname="NOUVELLES TECHNOLOGIES">
+        <source>NOUVELLES TECHNOLOGIES</source>
+        <target>NEW TECHNOLOGIES</target>
+      </trans-unit>
+      <trans-unit id="bYAfYeB" resname="MULTIPLATEFORME">
+        <source>MULTIPLATEFORME</source>
+        <target>MULTIPLATFORM</target>
+      </trans-unit>
+      <trans-unit id="k5DoSw6" resname="Formations et Assistances">
+        <source>Formations et Assistances</source>
+        <target>Trainings and Assistance</target>
+      </trans-unit>
+      <trans-unit id="tFIKrXm" resname="Pour une bonne gestion de votre salon de beauté">
+        <source>Pour une bonne gestion de votre salon de beauté</source>
+        <target>For a good management of your beauty salon</target>
+      </trans-unit>
+      <trans-unit id="q.Td_7x" resname="Voir Plus">
+        <source>Voir Plus</source>
+        <target>See more</target>
+      </trans-unit>
+      <trans-unit id="usTHC.K" resname="Magnifique formation. Très pratico-pratique on en ressort avec tous les éléments nécessaire pour faire nos choix de systèmes. Bravo au formateur jamais mis en défaut malgré la diversité et multiplicité des questions. Formation à encourager sans hésitation.">
+        <source>Magnifique formation. Très pratico-pratique on en ressort avec tous les éléments nécessaire pour faire nos choix de systèmes. Bravo au formateur jamais mis en défaut malgré la diversité et multiplicité des questions. Formation à encourager sans hésitation.</source>
+        <target>Wonderful training. Very practical, we come out with all the elements necessary to make our system choices. Well done to the trainer who was never faulted despite the diversity and multiplicity of questions. Training to be encouraged without hesitation.</target>
+      </trans-unit>
+      <trans-unit id="Jh2XmCm" resname="Bonjour,La formation délivrée par Benoît Marsille de Rom-arrange est d une très grande qualité. C est à la fois clair et simple pour le débutant et très technique pour celui qui veut aller plus loin...beaucoup plus loin . Benoit ne semble pas avoir de limite dans sa connaissance de l’informatique embarquée. Je recommande.">
+        <source>Bonjour,La formation délivrée par Benoît Marsille de Rom-arrange est d une très grande qualité. C est à la fois clair et simple pour le débutant et très technique pour celui qui veut aller plus loin...beaucoup plus loin . Benoit ne semble pas avoir de limite dans sa connaissance de l’informatique embarquée. Je recommande.</source>
+        <target>Hello, The training provided is of a very high quality. It's both clear and simple for the beginner and very technical for those who want to go further ... much further. Benoit does not seem to have a limit in his knowledge of on-board computing. I recommend.</target>
+      </trans-unit>
+      <trans-unit id="4UfQlwa" resname="Excellente formation très pédagogique dans un domaine tres diverses et pas toujours facile à appréhender. Merci au formateur qui a su rendre cette formation intéressante.">
+        <source>Excellente formation très pédagogique dans un domaine tres diverses et pas toujours facile à appréhender. Merci au formateur qui a su rendre cette formation intéressante.</source>
+        <target>Excellent very educational training in a very diverse field and not always easy to understand. Thank you to the trainer who made this training interesting.</target>
+      </trans-unit>
+      <trans-unit id="qnM.tEU" resname="Très bien, très utile et j'ai appris beaucoup. La diversité des niveaux de chacun a conduit à des discussions pointues qui me sont parfois passées largement au-dessus mais cela n'ôte rien à la qualité et à l'intérêt de la formation.">
+        <source>Très bien, très utile et j'ai appris beaucoup. La diversité des niveaux de chacun a conduit à des discussions pointues qui me sont parfois passées largement au-dessus mais cela n'ôte rien à la qualité et à l'intérêt de la formation.</source>
+        <target>Very good, very helpful and I learned a lot. The diversity of the levels of each one has led to sharp discussions which sometimes passed me well above but this does not detract from the quality and interest of the training.</target>
+      </trans-unit>
+      <trans-unit id="QBwvnHm" resname="Le prix final depend:">
+        <source>Le prix final depend:</source>
+        <target>The final price depends:</target>
+      </trans-unit>
+      <trans-unit id="n7HYDV." resname="Du lieu de livraison et de la durée de livraison">
+        <source>Du lieu de livraison et de la durée de livraison</source>
+        <target>Place of delivery and duration of delivery</target>
+      </trans-unit>
+      <trans-unit id="LHGWjAG" resname="Acheter maintenant">
+        <source>Acheter maintenant</source>
+        <target>Buy now</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

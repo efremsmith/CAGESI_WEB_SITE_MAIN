@@ -1,0 +1,167 @@
+{% extends 'bases/base.html.twig'  %}
+
+
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/courses_styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/courses_responsive.css') }}">
+{% endblock %}
+{% block body %}
+    {{ include('components/menu.html.twig') }}
+    <div class="home">
+        {% block header %}
+        <div class="home_background_container prlx_parent">
+            <div class="home_background prlx" style="background-image:url(images/reseaux.jpg)"></div>
+        </div>
+        <div class="home_content">
+            <h1><span>Solutions</span></h1>
+        </div>
+        {% endblock %}
+     </div>
+    
+
+    {% block content %}
+    <!-- Popular -->
+    <div class="popular page_section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <div class="section_title text-center">
+                        <h1>{% trans %}Nos solutions {% endtrans %}</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row course_boxes">
+
+
+                <div class="col-lg-4 course_box">
+                    <div class="card">
+                        <div class="card-img-container" style="background-image: url({{ asset('images/securit.jpeg') }})">
+                           
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="card-title"><a href="#">E-SECURITY</a></div>
+                            <div class="card-text">{% trans %} La gestion de votre entreprise de sécurité {% endtrans %}</div>
+                        </div>
+                        <div class="price_box d-flex flex-row align-items-center">
+                            <div class="course_author_image">
+                                <img src="{{ asset('images/app-web.jpg') }}" alt="https://unsplash.com/@mehdizadeh">
+                            </div>
+                            <div class="course_author_name"> {% trans %} APPLICATION Web {% endtrans %}</div>
+                            <div class="course_price d-flex flex-column align-items-center justify-content-center"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Course Item -->
+                <div class="col-lg-4 course_box">
+                    <div class="card">
+                        <div class="card-img-container" style="background-image: url({{ asset('images/stock.jpg') }})">
+                           
+                        </div>
+
+                        <div class="card-body text-center">
+                            <div class="card-title"><a href="#">E-STOCK</a></div>
+                            <div class="card-text"> {% trans %} La gestion de stock dans tout son ensemble {% endtrans %}</div>
+                        </div>
+                        <div class="price_box d-flex flex-row align-items-center">
+                            <div class="course_author_image">
+                                <img src="{{ asset('images/app-web.jpg') }}" alt="">
+                            </div>
+                            <div class="course_author_name">{% trans %} APPLICATION Web {% endtrans %}</div>
+                            <div class="course_price d-flex flex-column align-items-center justify-content-center"><i class="fas fa-cart-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Course Item -->
+                <div class="col-lg-4 course_box">
+                    <div class="card">
+                        <div class="card-img-container" style="background-image: url({{ asset('images/beauty_sale.jpg') }})">
+                            
+                        </div>
+
+                        <div class="card-body text-center">
+                            <div class="card-title"><a href="#"> E-BEAUTY</a></div>
+                            <div class="card-text">{% trans %} Pour une bonne gestion de votre Salon de Beauté {% endtrans %}</div>
+                        </div>
+                        <div class="price_box d-flex flex-row align-items-center">
+                            <div class="course_author_image">
+                                <img src="{{ asset('images/app-web.jpg') }}" alt="">
+                            </div>
+                            <div class="course_author_name">{% trans %} APPLICATION Web{% endtrans %}</div>
+                            <div class="course_price d-flex flex-column align-items-center justify-content-center"><i class="fas fa-cart-arrow-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Course Item -->
+                <div class="col-lg-4 course_box">
+                    <div class="card">
+                        <img class="card-img-top" src="images/course_4.jpg" alt="https://unsplash.com/@kellitungay">
+                        <div class="card-body text-center">
+                            <div class="card-title"><a href="courses.html">E-SCHOOL</a></div>
+                            <div class="card-text">{% trans %}Gerer tous les domaines de vos écoles {% endtrans %}</div>
+                        </div>
+                        <div class="price_box d-flex flex-row align-items-center">
+                            <div class="course_author_image">
+                                <img src="{{ asset('images/app-web.jpg') }}" alt="https://unsplash.com/@mehdizadeh">
+                            </div>
+                            <div class="course_author_name">{% trans %}APPLICATION web {% endtrans %}</div>
+                            <div class="course_price d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-cart-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="commande-container">
+
+            <div class="container-fluid">
+
+                <div class="row row-eq-height">
+
+                    <div class="col-lg-12 nopadding">
+
+                        <!-- Search -->
+
+                        <div class="search_section d-flex flex-column align-items-center justify-content-center">
+                            <div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
+                            <div class="search_content text-center">
+                                <h1 class="search_title"> {% trans %} Choisissez une de nos solutions {% endtrans %} </h1>
+                                <form id="search_form" class="search_form" action="post">
+                                    <!--input id="search_form_name" class="input_field search_form_name" type="text" placeholder="Course Name" required="required" data-error="Course name is required."-->
+                                    <select name="" id="search_form_name" class="input_field search_form_name" required="required" >
+                                        <option value="">CAGESI e-security</option>
+                                        <option value="">CAGESI e-stock</option>
+                                        <option value="">CAGESI e-beauty</option>
+                                        <option value="">CAGESI e-school</option>
+                                    </select>
+                                    <input id="search_form_category" class="input_field search_form_category" type="text" placeholder="Nom & Prenoms">
+                                    <input id="search_form_degree" class="input_field search_form_degree" type="text" placeholder="Email">
+                                    <button id="search_submit_button" type="submit" class="search_submit_button trans_200" value="Submit">{% trans %}Envoyez-maintenant {% endtrans %}</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- A venir -->
+    {{ include('components/prochain.html.twig') }}
+    {% endblock %}
+    
+    {% block footer %}
+    {{ include('components/footer.html.twig') }}
+    {% endblock %}
+
+    <script>
+        <script src="{{ asset('js/courses_custom.js') }}"></script>
+        <script src="{{ asset('plugins/progressbar/progressbar.min.js') }}"></script>
+    </script>
+{% endblock %}

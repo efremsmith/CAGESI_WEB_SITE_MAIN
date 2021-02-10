@@ -1,0 +1,247 @@
+{% extends 'bases/base.html.twig'  %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/elements_styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/elements_responsive.css') }}">
+{% endblock %}
+{% block body %}
+    {{ include('components/menu.html.twig') }}
+    <div class="home">
+        {% block header %}
+        <div class="home_background_container prlx_parent">
+            <div class="home_background prlx" style="background-image:url(images/services.jpg)"></div>
+        </div>
+        <div class="home_content">
+            <h1><span>{% trans %}Services{% endtrans %}</span></h1>
+        </div>
+        {% endblock %}
+    </div>
+
+    {% block content %}
+    <div class="elements">
+        <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title text-center">
+                            <h1>{% trans %}Nos services{% endtrans %}</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row course_boxes">
+
+                    <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+                        <div class="icon_container d-flex flex-column justify-content-end">
+                            <img src="images/earth-globe.svg" alt="">
+                        </div>
+                        <h3>{% trans %}Application de Gestion{% endtrans %}</h3>
+                        <p>{% trans %}Les meilleures applications de gestion d’entreprise pour suivre vos activités de partout à n'importe quelle heure. 
+                        Vous pouvez y accéder sur vos smartphones, ordinateurs et autres supports technologiques.{% endtrans %}</p>
+                    </div>
+
+                    <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+                        <div class="icon_container d-flex flex-column justify-content-end">
+                            <img src="images/exam.svg" alt="">
+                        </div>
+                        <h3>{% trans %}Conception de sites web{% endtrans %}</h3>
+                        <p>{% trans %}Le-saviez vous déjà? La présence sur Internet est indispensable à ce jour pour avoir une visibilité auprès de vos clients et de vos prospects. 
+                        Ainsi nous vous offrons un site de haute qualité selon vos exigences et celles de vos clients.{% endtrans %}</p>
+                    </div>
+
+                    <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+                        <div class="icon_container d-flex flex-column justify-content-end">
+                            <img src="images/books.svg" alt="">
+                        </div>
+                        <h3>{% trans %}Intégration  de module{% endtrans %}</h3>
+                        <p>{% trans %}Nous pouvons installer et configurer vos différentes solutions et y intégrer les modules de votre choix.{% endtrans %}</p>
+                    </div>
+
+                    <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+                        <div class="icon_container d-flex flex-column justify-content-end">
+                            <img src="images/professor.svg" alt="">
+                        </div>
+                        <h3>{% trans %}La formation{% endtrans %}</h3>
+                        <p>{% trans %}Nous enseignons aux employés et chefs d'entreprises ou non les connaissances nécessaires pour une utilisation facile de nos systèmes.{% endtrans %}</p>
+                    </div>
+
+                    <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+                        <div class="icon_container d-flex flex-column justify-content-end">
+                            <img src="images/blackboard.svg" alt="">
+                        </div>
+                        <h3>{% trans %}Assistance en ligne{% endtrans %}</h3>
+                        <p>{% trans %}Après avoir se connecté à notre plateforme "Aidez-moi", vous aurez accès à toutes nos ressources pour vous assister depuis chez vous.
+                            Vous pouvez être également rediriger automatiquement vers notre service le plus adapté (accessible 24h/24 et 7j/7) pour une prise en charge rapide.
+                            Chaque client a ses identifiants qui sont livrés à l’abonnement aux services assistances en ligne.{% endtrans %}</p>
+                    </div>
+
+                    <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+                        <div class="icon_container d-flex flex-column justify-content-end">
+                            <img src="images/mortarboard.svg" alt="">
+                        </div>
+                        <h3>{% trans %}Maintenance{% endtrans %}</h3>
+                        <p>{% trans %}Les actions de dépannage et de réparation, de réglage, de révision, de contrôle que nous avons l'habitude de faire par nos mises à jour sur les différentes
+                            plateformes de nos clients sont la maintenance. Ces mises à jour prennent en compte nos notes pendant nos conférences en ligne ou nos visites 
+                            d'écoutes sur l'utilisation.{% endtrans %}</p>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- Progress Bars and Accordions -->
+
+        <div class="pbars_accordions">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title text-center">
+                            <h1>{% trans %}Quelques chiffres{% endtrans %}</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pbars_accordions_container">
+                    <!-- Progress Bars & Accordions -->
+
+                    <div class="col-lg-6">
+
+                        <!-- Progress Bars -->
+                        <div class="elements_progress_bars">
+
+                            <div class="pbar_container">
+                                <ul class="progress_bar_container col_12 clearfix">
+                                    <li class="pb_item">
+                                        <h4>{% trans %}Technologies récentes{% endtrans %}</h4>
+                                        <div id="skill_1_pbar" class="skill_bars" data-perc="1"></div>
+                                    </li>
+                                    <li class="pb_item">
+                                        <h4>{% trans %}Plateforme multiple{% endtrans %}</h4>
+                                        <div id="skill_2_pbar" class="skill_bars" data-perc="1"></div>
+                                    </li>
+                                    <li class="pb_item">
+                                        <h4>{% trans %}Assistance en ligne{% endtrans %}</h4>
+                                        <div id="skill_3_pbar" class="skill_bars" data-perc="1"></div>
+                                    </li>
+                                    <li class="pb_item">
+                                        <h4>{% trans %}Services après-vente{% endtrans %}</h4>
+                                        <div id="skill_4_pbar" class="skill_bars" data-perc="1"></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <!-- Accordions -->
+                        <div class="elements_accordions">
+                            <div class="accordion_container">
+                                <div class="accordion d-flex flex-row align-items-center">{% trans %}Technologies récentes.{% endtrans %}</div>
+                                <div class="accordion_panel">
+                                    <p>{% trans %}En phase avec l'évolution technologique, nous proposons des services (applications, sites web...)
+                                        en tenant compte des technologies qui sont d'actualité.{% endtrans %}</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_container">
+                                <div class="accordion d-flex flex-row align-items-center">{% trans %}Des applications multiplateformes.{% endtrans %}
+                                </div>
+                                <div class="accordion_panel">
+                                    <p>{% trans %}Nous concevons des logiciels fonctionnant dans plusieurs environnements
+                                        permettant la gestion et/ou l'utilisation de services applicatifs.{% endtrans %}</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_container">
+                                <div class="accordion d-flex flex-row align-items-center">{% trans %}Service d'assistance{% endtrans %}
+                                    {% trans %}accessible à distance.{% endtrans %}
+                                </div>
+                                <div class="accordion_panel">
+                                    <p>{% trans %}Nous assistons à distance toute personne morale ou physique ayant sollicité
+                                        notre expertise.{% endtrans %}</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_container">
+                                <div class="accordion d-flex flex-row align-items-center">{% trans %}Relation avec les clients{% endtrans %}</div>
+                                <div class="accordion_panel">
+                                    <p>{% trans %}Pour créer un climat de confiance entre le client et nous, demandons ce que vous pensez de nos prestations. Ceci étant nous sommes à votre
+                                        entière disposition jusqu'à satisfaction complète.{% endtrans %}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+      
+
+        <!-- Milestones -->
+
+        <div class="milestones">
+
+
+            <div class="milestones_container">
+                <div class="milestones_background" style="background-image:url(images/milestones_background.jpg)"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <!-- Milestone -->
+                        <div class="col-lg-3 milestone_col">
+                            <div class="milestone text-center">
+                                <div class="milestone_icon"><img src="images/milestone_2.svg"
+                                                                 alt="https://www.flaticon.com/authors/zlatko-najdenovski">
+                                </div>
+                                <div class="milestone_counter" data-end-value="12">0</div>
+                                <div class="milestone_text">{% trans %}Clients satisfaits{% endtrans %}</div>
+                            </div>
+                        </div>
+
+                        <!-- Milestone -->
+                        <div class="col-lg-3 milestone_col">
+                            <div class="milestone text-center">
+                                <div class="milestone_icon"><img src="images/milestone_3.svg"
+                                                                 alt="https://www.flaticon.com/authors/zlatko-najdenovski">
+                                </div>
+                                <div class="milestone_counter" data-end-value="6">0</div>
+                                <div class="milestone_text">Applications</div>
+                            </div>
+                        </div>
+
+                        <!-- Milestone -->
+                        <div class="col-lg-3 milestone_col">
+                            <div class="milestone text-center">
+                                <div class="milestone_icon"><img src="images/milestone_4.svg"
+                                                                 alt="https://www.flaticon.com/authors/zlatko-najdenovski">
+                                </div>
+                                <div class="milestone_counter" data-end-value="10">0</div>
+                                <div class="milestone_text">{% trans %}Formations{% endtrans %}</div>
+                            </div>
+                        </div>
+                        <!-- Milestone -->
+                        <div class="col-lg-3 milestone_col">
+                            <div class="milestone text-center">
+                                <div class="milestone_icon"><img src="images/milestone_3.svg"
+                                                                 alt="https://www.flaticon.com/authors/zlatko-najdenovski">
+                                </div>
+                                <div class="milestone_counter" data-end-value="6">0</div>
+                                <div class="milestone_text">{% trans %}Services{% endtrans %}</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+    {% block footer %}
+    {{ include('components/footer.html.twig') }}
+    {% endblock %}
+
+
+    <script src="{{ asset('js/elements_custom.js') }}"></script>
+    <script src="{{ asset('plugins/progressbar/progressbar.min.js') }}"></script>
+{% endblock %}

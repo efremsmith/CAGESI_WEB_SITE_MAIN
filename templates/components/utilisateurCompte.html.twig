@@ -1,0 +1,146 @@
+<section class="product spad">
+    <div class="container">
+        <h3> Bonjour {{user.nom}} </h3> <br>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Dashboard</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Securité</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Profil</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Deconnexion</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active table-responsive" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Date de commande</th>
+                                        <th scope="col">Reglement</th>
+                                        <th scope="col">montant</th>
+                                        <th scope="col">Statut</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for achat in achats %}
+                                        <tr>
+                                            <td>{{achat.CreatedAt | date('y/m/d')}}</td>
+                                            <td>{{achat.typeReglement.typeReglement}}</td>
+                                            <td>{{achat.PrixAchat}}</td>
+                                            <td>{{achat.Statut}}</td>
+                                            <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                                Plus
+                                            </button></td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                        </table>
+                    </div>
+                    <!--mot de passe-->
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <form method="POST" action="{{path('modif_pass',{ 'id': user.id })}}">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> Ancien Mot de passe</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"  value="{{user.password}}" name="password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail2">Nouvelle Mot de passe</label>
+                                <input type="text" class="form-control" id="exampleInputEmail2"  placeholder="Enter le nouveau mot de passe" required name="password1">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail3">Confirmer le Mot de passe</label>
+                                <input type="text" class="form-control" id="exampleInputEmail3"  placeholder="confirmer le mot de passe" required name="password2">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Modifier</button>
+                        </form>
+                    </div>
+                    <!--profil-->
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <form  method="POST" action="{{path('modif_user',{ 'id': user.id })}}">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Nom</label>
+                                    <input type="text" class="form-control" value="{{user.nom}}" name="nom">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Prenom</label>
+                                    <input type="text" class="form-control" value="{{user.prenom}}" name="prenom">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Email</label>
+                                <input type="email" class="form-control" value="{{user.email}}" name="email">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Pays</label>
+                                    <input type="text" class="form-control" value="{{user.pays}}" name="pays">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Ville</label>
+                                    <input type="text" class="form-control" value="{{user.ville}}" name="ville">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Adresse</label>
+                                <input type="text" class="form-control" value="{{user.adresse}}" name="adresse">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Telephone</label>
+                                <input type="number" class="form-control" value="{{user.telephone}}" name="telephone">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Modifier</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                </div>
+            </div>
+        </div>
+    <div>
+</section>
+
+
+<!--########################"-modal###############################->
+
+<!- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Liste des produits</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th scope="col">Nom du produit</th>
+                        <th scope="col">quantité</th>
+                        <th scope="col">P.U</th>
+                        <th scope="col">P.T</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ligneachat in ligneachats %}
+                            <tr>
+                                <th>{{ligneachat.produit.NomProduit}}</th>
+                                <td>{{ligneachat.Quantite}}</td>
+                                <td>{{ligneachat.produit.Prix}}</td>
+                                <td>{{ligneachat.PrixTotal}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>

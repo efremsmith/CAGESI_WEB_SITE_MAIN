@@ -1,0 +1,95 @@
+<div class="register">
+
+    <div class="container-fluid">
+
+        <div class="row row-eq-height">
+            <div class="col-lg-6 nopadding">
+
+                <!-- Register -->
+                <div class="register_section d-flex flex-column align-items-center justify-content-center">
+                    <div class="register_content text-center">
+                        <h1 class="register_title">{% trans %}Avez-vous besoin d'une solution particulière et sur mesure? Notre équipe est disponible{% endtrans %} <span>7j/7</span></h1>
+                        <p class="register_text">{% trans %}Pour tous vos besoins en logiciel, en infographie, en community manager, notre équipe est prête à intervenir sur vos demandes.{% endtrans %}</p>
+
+                        <div class="button button_1 register_button mx-auto trans_200" id="devis-button">
+                            <a href="#" data-toggle="modal" data-target="#devis-modal">{% trans %}Faire un Devis{% endtrans %}</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-lg-6 nopadding">
+
+                <div class="search_section d-flex flex-column align-items-center justify-content-center">
+                    <div class="search_background"
+                         style="background-image:url({{ asset('images/search_background.jpg') }});"></div>
+                    <div class="search_content text-center" id="commande">
+                        <h1 class="search_title">{% trans %}Commandez un de nos produits{% endtrans %}</h1>
+                        <form action="" class="search_form" method="Post" id="form-solution">
+                        
+                            <div class="row">
+                                <div class="form-group col-sm-12">
+                                    <select name="solution" id="solution_id" class="input_field search_form_name"
+                                            required="required">
+                                       
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <input type="text" id="nom" class="input_field" name="nom" required size="30" placeholder="Nom">
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <input type="text" id="prenom" name="prenom" class="input_field " required size="30" placeholder="Prénom(s)">
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <input type="text" id="email" class="input_field" name="email" required size="30" placeholder="Email">
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <input type="text" id="telephone" class="input_field" name="telephone" required size="30" placeholder="Téléphone">
+                                </div>
+
+                            </div>
+                            <button type="submit" class="search_submit_button trans_200" id="commande-button">{% trans %}commander maintenant{% endtrans %}</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    
+</div>
+
+</div>
+
+    <script>
+
+        function showMessage(title, text, icon) {
+            swal({
+                title: title,
+                text: text,
+                icon: icon,
+                button: {
+                    text: "OK",
+                    value: true,
+                    visible: true,
+                    className: "cbtn swal-btn",
+                    closeModal: true,
+                },
+
+            });
+
+        }
+
+        
+</script>
+

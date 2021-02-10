@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CAGESI Shop</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{{asset('boutique/css/bootstrap.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('boutique/css/font-awesome.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('boutique/css/elegant-icons.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('boutique/css/nice-select.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('boutique/css/jquery-ui.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('boutique/css/owl.carousel.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('boutique/css/slicknav.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('boutique/css/style.css')}}" type="text/css">
+	
+    
+</head>
+
+<body>
+<style> 
+.partie2{margin-left:25%} 
+.partie1{margin-left:15%}
+</style>
+
+    {{ include('components/boutiqueHeader.html.twig') }}
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>CAGESI Shop</h2>
+                        <div class="breadcrumb__option">
+                            <span>Connexion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+    <section class="product spad ">
+        <div class="container">
+            <h2 class="text-center">Connexion</h2> <br>
+            <h4 class="text-center">Bienvenue ! Connectez-vous à votre compte.</h4> <br>
+            <div class="row partie1">
+                <form action="{{path('connexion')}}" method="POST">
+                    <div class="form-row align-items-center ml-5">
+                        <div class="ml-5 col-sm-3 my-1">
+                            <label class="sr-only" for="inlineFormInputGroupUsername">E-mail</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                    <input type="email" class="form-control" id="inlineFormInputGroupUsername" name="email" placeholder="email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 my-1">
+                            <label class="sr-only" for="inlineFormInputName">Password</label>
+                            <input type="password" class="form-control" id="inlineFormInputName" placeholder="Jane Doe" name="password" required>
+                        </div>
+                        <div class="col-auto my-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="autoSizingCheck2" required>
+                                <label class="form-check-label" for="autoSizingCheck2">
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-auto my-1">
+                            <button type="submit" class="btn btn-primary">Connexion</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <br>
+            <h3 class="text-center">NB: Inscrivez-vous dès aujourd'hui et vous pourrez : </h3>
+            <br>
+            <div class="row partie2">
+                <ul>
+                    <li> Accélérer votre passage à la caisse </li>
+                    <li> Suivre facilement vos commandes </li>
+                    <li> Conserver une trace de tous vos achats </li>
+                    <li> Faire parti de nos clients proivilégiés et obtenir des bons de réduction </li>
+                </ul>
+            </div>
+        <div>
+    </section>
+    
+    <!-- footer -->
+
+	{{ include('components/boutiqueFooter.html.twig') }}
+    
+
+    <!-- Js Plugins -->
+    <script src="{{asset('boutique/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('boutique/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('boutique/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('boutique/js/jquery-ui.min.js')}}"></script>
+    <script src="{{asset('boutique/js/jquery.slicknav.js')}}"></script>
+    <script src="{{asset('boutique/js/mixitup.min.js')}}"></script>
+    <script src="{{asset('boutique/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('boutique/js/main.js')}}"></script>
+
+
+
+</body>
+
+</html>

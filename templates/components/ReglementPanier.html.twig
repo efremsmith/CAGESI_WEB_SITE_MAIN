@@ -1,0 +1,103 @@
+<!-- Checkout Section Begin -->
+    <section class="checkout spad">
+        <div class="container">
+            <div class="checkout__form">
+                <h4>{% trans %} Détails de la facturation {% endtrans %}</h4>
+                <form action="{{ path('commande')}}" method="POST">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Fist Name<span>*</span></p>
+                                        <input type="text" name="nom" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Last Name<span>*</span></p>
+                                        <input type="text" name="prenom" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Country<span>*</span></p>
+                                <input type="text" name="pays" required>
+                            </div>
+                            <div class="checkout__input">
+                                <p>City<span>*</span></p>
+                                <input type="text" name="ville" required>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Addresse de livraison<span>*</span></p>
+                                <input type="text" placeholder="Street Address" class="checkout__input__add" name="adresse" required>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Phone<span>*</span></p>
+                                        <input type="text" name="telephone" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Email<span>*</span></p>
+                                        <input type="text" name="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__input">
+                                <label for="acc">
+                                    Create an account?
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <p>Create an account by entering the information below. If you are a loyal customer, you can follow the progress of your order.please login at the top of the page</p>
+                            <div class="checkout__input">
+                                <label for="acc">
+                                    Password
+                                    <input type="text" name="password">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="checkout__order">
+                                <h4>Your Order</h4>
+                                <div class="checkout__order__products">Products <span>Total</span></div>
+                                <ul>
+                                    {% for item in items %}
+                                        <li>{{item.produit.nomProduit}} <strong>x</strong> {{item.quantite}} <span>{{ item.produit.prix * item.quantite }}</span></li>
+                                    {% endfor %}
+                                </ul>
+                                <div class="checkout__order__subtotal">Sous total <span>{{total}}</span></div>
+                                <div class="checkout__order__total">Total <span>{{total}}</span></div>
+                                <div class="checkout__input__checkbox">
+                                    Moyen de reglement: </br>
+                                    <select class="checkout__input form-select" id="acc-or" name="modereglement" required>
+                                        {% for typereglement in typereglements %}
+                                            <option value="{{typereglement.id}}">{{typereglement.typeReglement}}</option>
+                                        {% endfor %}
+                                    </select>
+                                    <span class="checkmark"></span>
+                                </div>
+                                <div class="checkout__input">
+                                    <label for="paypal">
+                                        NB: Le prix peut augmenter ou diminuer en fonction du temps de livraison et d'adresse de livraison du client.
+                                    </label>
+                                </div>
+                                <div class="checkout__input__checkbox">
+                                    <label for="paypal">
+                                        J’ai lu et j’accepte les conditions générales *
+                                        <input type="checkbox" id="paypal" required>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <button href="{{path('reglement')}}" type="submit" class="site-btn">Valider Commande</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Checkout Section End -->
